@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: darkgreen;
+    list-style: none;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+li {
+    display: inline-block;
+    margin-right: 25px;
+}
+li {
+    display: inline-block;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 25px;
+}
+
+header {
+    background-color: blue;
+    padding: 30px;
+}
+.logo {
+    font-size: 2rem;
+    font-family: "Arial", sans-serif;
+    color: #333;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 10px 20px;
+    border: 2px solid #333;
+    right: 0%;
+  }
+  
+nav {
+    height: 70px;
+    width: 100%;
+    background: rgb(5, 233, 81);
+}
+      .nav {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        z-index: 999;
+      }
+   
+      
+      .prev,
+      .next {
+        background-color: transparent;
+        border: none;
+        font-size: 2rem;
+        cursor: pointer;
+        color: #fff;
+        padding: 0 20px;
+      }
+      
+      .prev:hover,
+      .next:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+      }
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .left-article {
+    width: 50%;
+    float: left;
+  }
+  
+  .right-article {
+    width: 50%;
+    float: right;
+  }
+    .sidebar {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 250px;
+        height: 70%;
+        background-color: #ccc;
+        z-index: 999;
+        transition: all 0.3s ease-in-out;
+      }
+      
+      body {
+        margin-left: 250px; /* make space for the sidebar */
+      }
+      
+      @media (max-width: 768px) {
+        .sidebar {
+          width: 100%;
+        }
+        
+        body {
+          margin-left: 0;
+        }
+      }
+      footer {
+        background-color: #f2f2f2;
+        padding: 20px;
+        text-align: center;
+      }
+      body {
+        background-image: url("image\img_lights_wide.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    
+      
+      
+  
+  

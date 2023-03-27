@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <header>
+        <nav>
+            <h1 class="logo">My Company</h1>
+        <ul>
+            <li><a href="home.html">home</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="services.html">services</a></li>
+            <li><a href="contact.html">contact</a></li>
+        </ul>
+    </nav>
+    </header>
+        <style>
+            #slider{
+                overflow: hidden;
+            }
+            #slider figure{
+                position: relative;
+                width: 500%;
+                margin: 0;
+                left: 0;
+                animation: 10s slider infinite;
+            }
+            #slider figure img{
+                float: left;
+                width: 20%;
+                height: 100%;
+            }
+            @keyframes slider{
+                0% {left: 0%;}
+                20% {left: 0%;}
+                25% {left: -100%;}
+                45% {left: -100%;}
+                50% {left: -200%;}
+                70% {left: -200%;}
+                75% {left: -300%;}
+                95% {left: -300%;}
+                100% {left: -400%;}
+            }
+        </style>
+        <div id="slider">
+            <figure>
+                <img src="image\images (5).jpeg" alt="images">
+                <img src="image\images (4).jpeg" alt="images">
+              <img src="image\images (3).jpeg" alt="images">
+             <img src="image\images (2).jpeg" alt="images">
+            </figure>
+        </div>
+            <div class="nav">
+              <button class="prev">&#10094;</button>
+              <button class="next">&#10095;</button>
+            </div>
+          </div>
+          
+        <div class="container">
+            <div class="left-article">
+              <!-- left article content goes here -->
+              <h1>This is the media standard group</h1>
+            </div>
+            <div class="right-article">
+              <!-- right article content goes here -->
+              <h1>We are the media</h1>
+            </div>
+          </div>
+          <div class="sidebar">
+            <!-- sidebar content goes here -->
+            <h1>we love each other</h1>
+            <h1>we are united</h1>
+          </div>
+          <footer>
+            <p>&copy; 2023 My Website. All rights reserved.</p>
+            <p>Contact us at <a href="mailto:info@mywebsite.com">info@mywebsite.com</a></p>
+          </footer>
+          
+</body>
+</html>
